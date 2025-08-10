@@ -34,8 +34,8 @@ bot = BotClient("")
 bot_rubka = Robot("")
 def show_iran_time():
     iran_time = datetime.datetime.now(pytz.timezone('Asia/Tehran'))
-    print("⏰ ساعت ایران:")
-    print(iran_time.strftime("%H:%M:%S"))
+    
+    return iran_time.strftime("%H:%M:%S")
 list_number = [
     "1",
     "2",
